@@ -1,0 +1,7 @@
+{
+    "todos": [
+      { "id": 1, "title": "Hello World", "status":"completed", "data":"2019-06-01" },
+      { "id": 2, "title": "JSON Server", "status":"in-progress", "data":"2019-06-01" }
+    ]
+  }
+  
