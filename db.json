@@ -1,7 +1,60 @@
 {
-    "todos": [
-      { "id": 1, "title": "Hello World", "status":"completed", "data":"2019-06-01" },
-      { "id": 2, "title": "JSON Server", "status":"in-progress", "data":"2019-06-01" }
-    ]
-  }
-  
+  "todos": [
+    {
+      "id": "1",
+      "title": "first item",
+      "status": "in-progress",
+      "data": "2024/10/07",
+      "important": true
+    },
+    {
+      "id": "2",
+      "title": "second item",
+      "status": "completed",
+      "data": "2024/10/07",
+      "important": true
+    },
+    {
+      "id": "3",
+      "title": "salam",
+      "status": "in-progress",
+      "data": "2024/06/11",
+      "important": true
+    },
+    {
+      "id": "4",
+      "title": "sdhgsadhasj",
+      "status": "completed",
+      "data": "2024/06/11",
+      "important": true
+    },
+    {
+      "id": "5",
+      "title": "dfdsfsfd",
+      "status": "completed",
+      "data": "2024/06/11",
+      "important": false
+    },
+    {
+      "id": "6",
+      "title": "dsaads",
+      "status": "completed",
+      "data": "2024/06/11",
+      "important": true
+    },
+    {
+      "id": "7",
+      "title": "DASD",
+      "status": "completed",
+      "data": "2024/06/11",
+      "important": false
+    },
+    {
+      "id": "8",
+      "title": "DFFDSFDS",
+      "status": "completed",
+      "data": "2024/06/11",
+      "important": false
+    }
+  ]
+}

@@ -1,13 +1,9 @@
 import create from 'zustand';
+import { State } from './types/todo';
 
-interface State {
-  count: number;
-  increment: () => void;
-}
-
-const useStore = create<State>((set) => ({
-  count: 0,
-  increment: () => set((state) => ({ count: state.count + 1 })),
+const useStore = create<State>((set, get) => ({
+  todos:[],
+  setTodosIndex: async (data) => { set({ todos:data }) },
 }));
 
 export default useStore;
